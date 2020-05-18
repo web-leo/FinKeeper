@@ -1,0 +1,44 @@
+@mixin btn {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid #4277FF;
+	background-color: transparent;
+	border-radius: 8px;
+	font-size: 15px;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #4277FF;
+	transition: .5s;
+	&:hover {
+		background-color: #4277FF;
+		color: #fff;
+	}
+}
+
+@mixin btn2 {
+	border: 1px solid #4277FF;
+	background: #4277FF;
+	border-radius: 8px;
+	font-weight: 500;
+	transition: .5s;
+	font-size: 15px;
+	color: #fff;
+	&:hover {
+		background-color: transparent;
+		color: #4277FF;
+	}
+}
+
+@mixin btn3 {
+	border: 1px solid #F4F4F4;
+	font-size: 15px;
+	color: #646464;
+	border-radius: 8px;
+	background-color: transparent;
+	transition: .5s;
+	&:hover {
+		background-color: #F4F4F4;
+	}
+}
+

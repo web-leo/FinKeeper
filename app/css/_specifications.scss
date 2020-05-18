@@ -1,0 +1,35 @@
+@import 'mixins.scss';
+@import 'colors.scss';
+
+/* Спецификации */
+body {
+	font-family: 'Roboto';
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.orange {
+	color: #FE7D34 !important;
+}
+.green {
+	color: #1DD200 !important;
+}
+.purple {
+	color: #7D00DF !important;
+}
+.blue {
+	color: #4277FF !important;
+}
+.red {
+	color: #FF511B !important;
+}
+.grey {
+	color: #646464 !important;
+}

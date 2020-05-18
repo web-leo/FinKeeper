@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* Адаптация */
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 992px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 576px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container {
+    max-width: 380px;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .container {
+    max-width: 320px;
+  }
+}
+/*# sourceMappingURL=media.css.map */

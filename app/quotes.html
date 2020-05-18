@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1" />
+   <title></title>
+   <meta name="format-detection" content="telephone=no" />
+   <meta name="descriotion" content="" />
+   <meta name="keywords" content="" />
+
+   <!-- Фавикон -->
+   <link rel="icon" href="img/logo/favicon.png" type="image/x-icon" />
+   <link rel="shortcut icon" href="img/logo/favicon.png" type="image/x-icon" />
+
+   <!-- CSS-Библиотеки -->
+   <link rel="stylesheet" href="css/libs/reset.min.css" />
+   <link rel="stylesheet" href="css/libs/slick.css" />
+   <link rel="stylesheet" href="css/libs/slick-theme.css" />
+   <link rel="stylesheet" href="css/libs/magnific-popup.css" />
+   <link rel="stylesheet" href="css/libs/animate.min.css" />
+
+   <!-- Шрифты -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+
+   <!-- Шрифтовые иконки -->
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" />
+
+   <!-- Стили -->
+   <link rel="stylesheet" href="css/main.css" />
+   <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+   <!-- Шапка -->
+   <header id="header">
+      <div class="container">
+         <div class="header_wrap">
+            <a href="index.html"><img src="img/logo/logo.svg" alt="Логотип" class="logo" /></a>
+            <nav class="menu">
+               <a href="" class="menu_item">Главная</a>
+               <a href="" class="menu_item">Котировки</a>
+               <a href="" class="menu_item">Предложения</a>
+               <a href="" class="menu_item">Портфель</a>
+               <a href="" class="menu_item">О проекте</a>
+            </nav>
+            <a href="page-authorized.html" class="header_btn">
+               <img src="img/icons/authorized.svg" alt="" />
+               <span>Авторизоваться</span>
+            </a>
+         </div>
+      </div>
+   </header>
+
+   <section id="quotes">
+      <div class="container">
+         <div class="quotes_top_box">
+            <ul class="tabs_menu">
+               <li>
+                  <a href="#tab1" class="active quotes_tab_btn1">Инновационные компании</a>
+               </li>
+               <li>
+                  <a href="#tab2" class="quotes_tab_btn2">Обычный бизнес</a>
+               </li>
+            </ul>
+            <div class="news_search_box">
+               <input type="text" class="news_search" placeholder="Название компании" />
+            </div>
+         </div>
+         <div class="quotes_list_wrap active">
+            <div class="quotes_list_btns">
+               <div class="quotes_list_btn">BIO V Company <span></span></div>
+               <div class="quotes_list_btn">DP Lab <span></span></div>
+            </div>
+            <button>Скрыть все графики</button>
+         </div>
+         <div class="quotes_graph">
+            <img src="img/graph/graph3.jpg" alt="" />
+            <div class="overlay active">
+               <p>
+                  Выберите компанию из списка, чтобы увидеть график. Вы
+                  можете выбрать несколько компаний, чтобы сравнить.
+               </p>
+            </div>
+         </div>
+         <div class="tab" id="tab1">
+            <table class="quotes_table">
+               <tr>
+                  <td></td>
+                  <td>Компания</td>
+                  <td>Последняя сделка</td>
+                  <td>Изменение цены</td>
+                  <td>Открытие</td>
+                  <td>Макс.</td>
+                  <td>Мин.</td>
+                  <td>Закрытие</td>
+                  <td>Объем</td>
+                  <td>Обновление</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img">
+                     <img src="img/quotes/1.jpg" alt="" />
+                  </td>
+                  <td>Галоэластомеры</td>
+                  <td>202,2 ₽</td>
+                  <td class="orange">-2,22%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr class="active">
+                  <td class="quotes_table_img active">
+                     <img src="img/quotes/2.jpg" alt="" />
+                  </td>
+                  <td>DP Lab</td>
+                  <td>4168,2 ₽</td>
+                  <td class="orange">-5.56%</td>
+                  <td>4414</td>
+                  <td>4414</td>
+                  <td>4102</td>
+                  <td>4414</td>
+                  <td>696 149</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img">
+                     <img src="img/quotes/3.jpg" alt="" />
+                  </td>
+                  <td>DELTA UniComm</td>
+                  <td>202,2 ₽</td>
+                  <td class="green">+2.34%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr class="active">
+                  <td class="quotes_table_img active">
+                     <img src="img/quotes/4.jpg" alt="" />
+                  </td>
+                  <td>BIO V Company</td>
+                  <td>202,2 ₽</td>
+                  <td class="orange">-3,14%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img">
+                     <img src="img/quotes/5.jpg" alt="" />
+                  </td>
+                  <td>Зелёный мир</td>
+                  <td>202,2 ₽</td>
+                  <td class="green">+4.11%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+            </table>
+         </div>
+         <div class="tab" id="tab2">
+            <table class="quotes_table">
+               <tr>
+                  <td></td>
+                  <td>Компания</td>
+                  <td>Последняя сделка</td>
+                  <td>Изменение цены</td>
+                  <td>Открытие</td>
+                  <td>Макс.</td>
+                  <td>Мин.</td>
+                  <td>Закрытие</td>
+                  <td>Объем</td>
+                  <td>Обновление</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img active">
+                     <img src="img/quotes/1.jpg" alt="" />
+                  </td>
+                  <td>Галоэластомеры</td>
+                  <td>202,2 ₽</td>
+                  <td class="orange">-2,22%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img">
+                     <img src="img/quotes/2.jpg" alt="" />
+                  </td>
+                  <td>DP Lab</td>
+                  <td>4168,2 ₽</td>
+                  <td class="orange">-5.56%</td>
+                  <td>4414</td>
+                  <td>4414</td>
+                  <td>4102</td>
+                  <td>4414</td>
+                  <td>696 149</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img active">
+                     <img src="img/quotes/3.jpg" alt="" />
+                  </td>
+                  <td>DELTA UniComm</td>
+                  <td>202,2 ₽</td>
+                  <td class="green">+2.34%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img">
+                     <img src="img/quotes/4.jpg" alt="" />
+                  </td>
+                  <td>BIO V Company</td>
+                  <td>202,2 ₽</td>
+                  <td class="orange">-3,14%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+               <tr>
+                  <td class="quotes_table_img">
+                     <img src="img/quotes/5.jpg" alt="" />
+                  </td>
+                  <td>Зелёный мир</td>
+                  <td>202,2 ₽</td>
+                  <td class="green">+4.11%</td>
+                  <td>194</td>
+                  <td>196,7</td>
+                  <td>186,69</td>
+                  <td>198,6</td>
+                  <td>70 562 740</td>
+                  <td>16.03 12:13</td>
+               </tr>
+            </table>
+         </div>
+      </div>
+   </section>
+
+   <!-- Подвал -->
+   <footer id="footer">
+      <div class="container">
+         <div class="footer_wrap">
+            <div class="other_products">
+               <h4 class="other_products_title">Другие продукты</h4>
+               <img src="img/partners/close-horizons.svg" alt="" class="other_products_logo" />
+               <p class="other_products_info">Информация</p>
+               <a href="" class="other_products_link">Юридическая информация</a>
+               <a href="" class="other_products_link">Условия использования сайта</a>
+            </div>
+            <a href="" class="privacy_policy">Политика конфиденциальности</a>
+            <div class="contact_us">
+               <h4 class="contact_us_title">Свяжитесь с нами</h4>
+               <a href="" class="contact_us_mail">contact@finkeeper.ru</a>
+               <p class="contact_us_text">
+                  ООО «Близкие Горизонты» 2020<br />
+                  Не следует, однако, забывать, что глубокий уровень
+                  погружения, в своём классическом представлении, допускает
+                  внедрение кластеризации усилий. Безусловно, сложившаяся
+                  структура организации не оставляет шанса для своевременного
+                  выполнения сверхзадачи. Безусловно, базовый вектор развития
+                  не даёт нам иного выбора, кроме определения поэтапного и
+                  последовательного развития общества.
+               </p>
+            </div>
+         </div>
+      </div>
+   </footer>
+
+   <!-- Модальные окна -->
+   <div class="modal_overlay">
+      <div class="container">
+         <div class="authorized_menu">
+            <a href="" class="authorized_menu_item">Избранное <img src="img/icons/star-2.svg" alt="" /></a>
+            <a href="" class="authorized_menu_item">Настройки <img src="img/icons/settings.svg" alt="" /></a>
+            <a href="" class="authorized_menu_item">Помощь <img src="img/icons/mind-dark.svg" alt="" /></a>
+            <a href="" class="authorized_menu_item">Выход <img src="img/icons/exit.svg" alt="" /></a>
+         </div>
+      </div>
+   </div>
+
+   <!-- Js-Библиотеки -->
+   <script src="js/libs/jquery-3.3.1.min.js"></script>
+   <script src="js/libs/slick.min.js"></script>
+   <script src="js/libs/magnific-popup.min.js"></script>
+   <script src="js/libs/wow.min.js"></script>
+   <script src="js/libs/jquery.maskedinput.min.js"></script>
+
+   <!-- JS-файл кастомизации -->
+   <script src="js/main.js"></script>
+</body>
+
+</html>
