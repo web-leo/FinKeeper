@@ -165,13 +165,13 @@
    padding: 0 15px 0 10px;
    align-items: center;
    margin-bottom: 14px;
+   border: 1px solid #f4f4f4;
 
    &:last-child {
       margin-bottom: 0;
    }
 
    &.active {
-      border: 1px solid #f4f4f4;
       box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.03);
    }
 
@@ -385,7 +385,6 @@
 
 .contact_us_title {
    font-size: 15px;
-   letter-spacing: 0.05em;
    text-transform: uppercase;
    color: #191919;
 }
@@ -1455,7 +1454,7 @@
    font-size: 15px;
    background-color: transparent;
    cursor: pointer;
-   background: url(../img/icons/arrow-down.svg) no-repeat 99% 50%;
+   background: url(../img/icons/arrow-down.svg) no-repeat 97% 50%;
    appearance: none;
    padding-left: 20px;
    margin-top: 9px;
@@ -2326,6 +2325,7 @@
 
 .offer_company_small_sale {
    font-size: 14px;
+   color: #191919;
 
    span {
       font-size: 14px;
@@ -2344,6 +2344,7 @@
    font-weight: 500;
    font-size: 14px;
    text-align: right;
+   color: #191919;
 }
 
 .offer_company_small_price2 {
